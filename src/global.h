@@ -1,0 +1,53 @@
+//
+//  global.h
+//  opencvExample
+//
+//  Created by jayson on 6/10/14.
+//
+//
+
+#ifndef opencvExample_global_h
+#define opencvExample_global_h
+
+#define NUM_SCENES 3
+
+#define SCREEN_WIDTH 2560
+#define SCREEN_HEIGHT 720
+
+#define PROJECTOR_SCREEN_POS_X 1280
+#define BOOTH_SCREEN_POS_X 0
+
+#define BOOTH_SCREEN_SIZE_X 1280
+#define BOOTH_SCREEN_SIZE_Y 720
+
+#define PROJECTOR_SCREEN_SIZE_X 1280
+#define PROJECTOR_SCREEN_SIZE_Y 720
+
+#define HAAR_SCALE_DOWN_SIZE_X 160
+#define HAAR_SCALE_DOWN_SIZE_Y 120
+
+#define WEBCAM_RES_X 1280
+#define WEBCAM_RES_Y 720
+
+#define BOOTH_PREVIEW_WINDOW_SIZE_X 426
+#define BOOTH_PREVIEW_WINDOW_SIZE_Y 240
+
+#define BOOTH_PREVIEW_WINDOW_POS_X BOOTH_SCREEN_SIZE_X - BOOTH_PREVIEW_WINDOW_SIZE_X
+#define BOOTH_PREVIEW_WINDOW_POS_Y BOOTH_SCREEN_SIZE_Y - BOOTH_PREVIEW_WINDOW_SIZE_Y
+
+#define OUTSIDE_FEED_TEXT_POS_X BOOTH_PREVIEW_WINDOW_POS_X
+#define OUTSIDE_FEED_TEXT_POS_Y BOOTH_PREVIEW_WINDOW_POS_Y - 25
+
+#define LIVE_TEXT_POS_Y 75
+#define LIVE_TEXT_POS_X 1100
+
+#define LIVE_ICON_POS_X 1200
+#define LIVE_ICON_POS_Y 37
+
+#define NOT_LIVE_ICON_PATH  "assets/ui/Indicator_waitforit.png"
+#define LIVE_ICON_PATH      "assets/ui/Indicator_YoureLive.png"
+
+
+#define EMOTION_GUIDELINES_TEXT_POS_X 1105
+#define EMOTION_GUIDELINES_TEXT_POS_Y 120
+#endif
